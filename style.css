@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+}
+.card-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.card{
+    width: 300px;
+    
+    margin: 20px;
+    
+    box-sizing: border-box;
+    box-shadow: 3px 5px 5px black;  
+    
+}
+.card:hover{
+    transform: scale(1.1) ;
+   
+}
+.img-dog{
+    width: 100%;
+    margin: 0%;
+    
+}
+.card-body{
+    padding: 10px;
+    background-color: black;
+    
+}
+.card-title{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+ .card-depec{
+    text-align: justify;
+    line-height: 2;
+    color: white;
+
+}
+.card-body:hover{
+    background-color: darkslategrey;
+}
+.card:hover{
+    box-shadow: 6px 12px 10px white;
+}
+
+.card-containers{
+    box-sizing: border-box;
+    display:flex ;
+    background-color: grey;
+}
